@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Develop Jobs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gravitas+One|Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover-min.css">
+</head>
+
+<body>
+    <!-- FULL PAGE DIV -->
+    <div id="page-whole">
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron"></div>
+    <!-- JUMBOTRON END-->
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <h4 id="discribtion">Get Access To Over 77,000+ Newly Posted Tech Jobs<br>Within 30 Days Of The Job Opening<br>Fast And Simple</h4 >
+    </div>
+    <!-- PAGE HEADER END -->
+
+    <!-- INPUT FELIDS -->
+    <div class="col-xs-6">
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon1">Jobs</span>
+            <input id="userJob" type="text" class="form-control" placeholder="Job Description" aria-describedby="sizing-addon1">
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon1">Location</span>
+            <input id="userLocation" type="text" class="form-control" placeholder="Zip Code / 40 Mile Radius" aria-describedby="sizing-addon1">
+        </div>
+    </div>
+
+    <!-- INPUT FELIDS END-->
+
+    <!-- BUTTON -->
+    <button id="btnAll" type="button" class="hvr-bounce-to-bottom">Search All Jobs</button>
+    <br><br>
+    <button id="btn" type="button" class="hvr-bounce-to-bottom">Search</button>
+    <!-- BUTTON END-->
+    <br><br><br><br>
+<!-- SALARY TABLE START -->
+    <div id="salTable">
+    <div class="table-users">
+      <div id="header2"></div>
+        <table cellspacing="0">
+          <tr>
+            <th>High</th>
+            <th>Median</th>
+            <th>Low</th>
+          </tr>
+          <tr>
+            <td id="high"></td>
+            <td id="med"></td>
+            <td id="low"></td>
+          </tr>
+        </table>
+    </div>
+    </div>
+    <!-- SALARY TABLE END -->
+
+    <!--Job table start -->
+    <div id="content">
+      <div class="table-users">
+        <div class="header">Jobs</div>
+          <table cellspacing="0">
+            <tr>
+                <th>Job Title</th>
+                <th>Company Name</th>
+                <th>Location</th>
+                <th>Job Description & Apply Now</th>
+                <!-- <th>Date Added</th> -->
+            </tr>
+            <tr>
+                <td id="title"></td>
+                <td id="name"></td>
+                <td id="location"></td>
+                <td id="apply"></td>
+                <!-- <td id="date"></td> -->
+            </tr>
+        </table>
+      </div>
+    </div>
+    <!-- JOB table end -->
+    </div>
+  <!-- FULL PAGE DIV END -->
+
+  <!-- PAGE 2 BTN OF JOBS START -->
+  <!-- <button id="btnNewPage" type="button" class="hvr-bounce-to-bottom">Search Next 100 Jobs</button> -->
+  <!-- PAGE 2 BTN OF JOBS END -->
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
